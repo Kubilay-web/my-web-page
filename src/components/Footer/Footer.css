@@ -1,0 +1,179 @@
+.footer-container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: 0px auto 0px auto;
+    padding: 85px 0px 130px 0px;
+    background-color: #F9F9F9;
+    border: 0;
+}
+
+.footer-general-container {
+    display: flex;
+    width: 1140px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+
+.footer-first {
+    display: flex;
+    flex-direction: column;
+    width: 579px;
+    height: 271px;
+    padding: 85px 0px 0px 0px;
+    gap: 60px;
+}
+
+.footer-mail {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer-first p {
+    color: #1F2937;
+    font-family: Inter;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.footer-mail p {
+    color: #AF0C48;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-decoration-line: underline;
+}
+
+.footer-second {
+    display: flex;
+    align-items: flex-end;
+    width: 294px;
+    height: 271px;
+    gap: 20px;
+}
+
+.personal-blog p {
+    color: #0A0A14;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.18px;
+}
+
+.footer-github p {
+    color: #00AB6B;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.18px;
+}
+
+.footer-linkedin p {
+    color: #0077B5;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.18px;
+}
+
+@media screen and (max-width:1168px) {
+    .footer-general-container {
+        display: flex;
+        width: 100%;
+        max-width: 1140px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+    .footer-first {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 579px;
+        height: 271px;
+        padding: 85px 0px 0px 0px;
+        gap: 60px;
+    }
+
+    .footer-second {
+        display: flex;
+        align-items: center;
+        width: 294px;
+        height: 271px;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width:896px) {
+    .footer-mail p {
+        color: #AF0C48;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1px;
+        text-decoration-line: underline;
+    }
+
+    .footer-first {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align:center;
+        width: 579px;
+        height: 271px;
+        padding: 85px 0px 0px 0px;
+        gap: 60px;
+    }
+
+    .space{
+        display:none !important;
+    }
+}
+
+
+
+/* Dark Mode */
+.footer-container.dark {
+    background-color: #141414;
+}
+
+p.dark-text-title {
+    color: #AEBCCF;
+}
+
+p.dark-text {
+    color: #BAB2E7;
+}
+
+p.dark-text-blog {
+    color: #E1E1FF;
+}
+
+p.dark-text-github {
+    color: #17D18B;
+}
+
+p.dark-text-linkedin {
+    color: #0BA6F6;
+}
+
+
+/* Dark Mode */
